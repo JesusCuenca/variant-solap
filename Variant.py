@@ -11,7 +11,7 @@ class Variant():
          self.start <= chr.end)
 
     def __str__(self):
-    	return f"Chromosome {self.chromosome_id} from {self.start} to {self.end}"
+    	return f"Variant {self.chromosome_id} from {self.start} to {self.end}"
 
     def __eq__(self, chr):
         return (self.chromosome_id == chr.chromosome_id and
